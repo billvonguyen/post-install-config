@@ -22,34 +22,67 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles, Departments, and Teams 
+- Grant access to anyone to create tickets
+- Configure Agents(workers), Users(customers), and SLA
+- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wJCXRxZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+1. Once signed into osTicket using the username and password created in the osTicket Installation guide, you'll want to create a role within osTicket. To do so you'll want to navigate to Roles by making sure that you're on the "Admin Panel" of the page, click "Agents" then "Roles" and "Add New Role".
+
 </p>
+<img src="https://i.imgur.com/eh7yoGT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+From here we will be creating a Supreme Admin role. So name the role as "Supreme Admin" as shown below.
 </p>
+<img src="https://i.imgur.com/SdjSZH0.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+Click on the "Permissions" tab and grant that particular role access to all of the options as shown below for "Tickets","Tasks", and "Knowledgebase".
+
+<img src="https://i.imgur.com/7bp20ez.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ARzC9Ch.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+Next step is to create our "Departments", proceed by clicking on "Agents" then "Departments" then "Add New Department".
+
+<img src="https://i.imgur.com/zpK6G5I.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+For this example it's okay to leave everything as is by default and just name the department "System Administrators" as shown below.
+
+<img src="https://i.imgur.com/rcRY3eV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+Next thing to do is to create a "team" basically our group of Tech Support Specialists page, in order to do so you must click on the "Teams" tab under "Agents" and for our example we will name the team "Level II Support" and click "Create" as shown below.
+
+<img src="https://i.imgur.com/0yNphRh.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+2. 2nd Step is to allow access to anyone to create tickets, this step is pretty simple. Just click on "Settings" then "Users" and make sure that the "Registration Required" checkbox is left unchecked and that's it.
 </p>
+<img src="https://i.imgur.com/Zg4QjLf.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+3. 3rd Step is to create our "Agents", so click on the "Agents" tab, "Agents", and "Add New Agent".
+  
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+For our Agent example you may name it to however you like as well as the email but please do take note of the username, email, and password just incase so you don't forget! You may assign the particular agent any "status" or "settings" to whatever you like as well.
 </p>
+<img src="https://i.imgur.com/mVruAQ5.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+Click on over to the "Access" tab and for this example we'll assign this agent to "System Administrators" with the access to "System Admin" powers that we created earlier. And as for the permissions tab everything should be left alone by default and we'll assign the agent to "Level II Support" in the "Teams" tab.
+
+<img src="https://i.imgur.com/lNXEOFS.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+
+
+
 <br />
