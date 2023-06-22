@@ -82,7 +82,29 @@ Click on over to the "Access" tab and for this example we'll assign this agent t
 
 <img src="https://i.imgur.com/lNXEOFS.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
+<p>For our next step we'll be creating "Users" for our osTicket so in this example you'll first want to switch over to the "Agent Panel" so go ahead and click "Agent Panel" in the top right corner of the osTicket webpage.</p>
+<img src="https://i.imgur.com/uW0E5MC.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
+<p>Make your way to the "User Directory" by clicking on the "Users" tab then click "Add User".</p>
 
+<img src="https://i.imgur.com/qNWGIyr.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
+<p>Name the user to whatever you like and click "Add User".</p>
+
+<img src="https://i.imgur.com/WiBEP9p.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
+
+<p>
+Next is to create an SLA to do so you must head back to the "Admin Panel", you must click on "Admin Panel" in the top right corner of the osTicket webpage then click on the "Manage" tab then "SLA".
+</p>
+<img src="https://i.imgur.com/wdMBmIJ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+For this SLA example you'll be creating a schedule of 24/7 with a grace period of 1 hour. And you can add more SLA plans with different schedules if you want to.
+
+<img src="https://i.imgur.com/8Ohk8dL.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+<p>
+4. 4th Step is to create Help Topics for our System Admins to review and help our Users. To do so make sure that we're in the Admin Panel, click the "Manage" tab, then click "Help Topics" and "Add New Help Topic". From here you can add as many "Help Topics" as you like, but for this example you can just add one and name it "Business Critical Outage".
+</p>
+<img src="https://i.imgur.com/yqnZJ8h.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pk8Sadm.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
